@@ -5,7 +5,7 @@ la configuración básica y el uso de Selenium WebDriver para interactuar con p�
 
 ## Requisitos
 
-- **JDK 11 o superior**: Asegúrate de tener Java instalado en tu máquina.
+- **JDK 8 o superior**: Asegúrate de tener Java instalado en tu máquina.
 - **Maven**: Este proyecto utiliza maven como sistema de construcción.
 
 ## Instalación
