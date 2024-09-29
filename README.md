@@ -20,6 +20,6 @@ la configuración básica y el uso de Selenium WebDriver para interactuar con p�
    ```bash
    mvn clean install
 
-3. **Ejecuta las pruebas:**:
+3. **Ejecuta las pruebas**:
    ```bash
      mvn test
