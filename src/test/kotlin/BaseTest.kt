@@ -1,4 +1,3 @@
-import io.github.bonigarcia.wdm.WebDriverManager
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions
@@ -11,7 +10,6 @@ abstract class BaseTest {
 
     @BeforeMethod
     fun beforeMethod() {
-        WebDriverManager.chromedriver().setup()
         val chromeOptions = ChromeOptions()
         chromeOptions.addArguments("--start-maximized")
         chromeOptions.addArguments("--lang=es")
