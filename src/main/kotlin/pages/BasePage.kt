@@ -9,7 +9,7 @@ import java.time.Duration
 
 abstract class BasePage {
 
-    protected var driver: WebDriver? = null
+    private var driver: WebDriver? = null
     protected var wait: WebDriverWait? = null
 
     constructor(driver: WebDriver?) {
